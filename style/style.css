@@ -14,10 +14,15 @@
     padding: 0;
 }
 
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 a {
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -49,7 +54,8 @@ header p {
 
 section {
     display: block;
-    padding: 2em 0px 2em 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh    ;
     line-height: 8vw;
     font-family: var(--fontetexto);
     font-size: 3.4vw;
